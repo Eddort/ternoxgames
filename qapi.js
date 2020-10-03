@@ -6,8 +6,7 @@ export default {
 			"name": "root",
 			"children": [
 				"5e9db7bb052a30001fc650da",
-				"5e9db7bb052a30001fc650dc",
-				"5f78aade8a25ab001e4e61e9"
+				"5e9db7bb052a30001fc650dc"
 			]
 		},
 		"5e9db7bb052a30001fc650da": {
@@ -22,12 +21,10 @@ export default {
 			"styles": {
 				"color": "#000000",
 				"font": "17px sans-serif"
+			},
+			"seo": {
+				"title": "Main Page"
 			}
-		},
-		"5f78aade8a25ab001e4e61e9": {
-			"id": "5f78aade8a25ab001e4e61e9",
-			"pageUrl": "nexoria",
-			"name": "Nexoria"
 		}
 	},
 	"mode": "production",
