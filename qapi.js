@@ -6,7 +6,8 @@ export default {
 			"name": "root",
 			"children": [
 				"5e9db7bb052a30001fc650da",
-				"5e9db7bb052a30001fc650dc"
+				"5e9db7bb052a30001fc650dc",
+				"5f78f4dd2e3a2a001faf3e0e"
 			]
 		},
 		"5e9db7bb052a30001fc650da": {
@@ -25,6 +26,11 @@ export default {
 			"seo": {
 				"title": "Main Page"
 			}
+		},
+		"5f78f4dd2e3a2a001faf3e0e": {
+			"id": "5f78f4dd2e3a2a001faf3e0e",
+			"pageUrl": "policy",
+			"name": "policy"
 		}
 	},
 	"mode": "production",

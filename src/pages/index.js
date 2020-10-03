@@ -1,11 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Text, Box, Link, Em, Icon } from "@quarkly/widgets";
+import { Theme, Text, Box, Link, Em, Icon, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Section, Override, StackItem, Stack } from "@quarkly/components";
+import { Section, Override, StackItem, Stack, SocialMedia, Menu } from "@quarkly/components";
+import * as Components from "components";
 import { MdEmail } from "react-icons/md";
-import { FaTwitter, FaFacebookF, FaSteamSymbol } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -17,11 +17,11 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section>
-			<Text margin="0px 0 24px 0" text-align="center" font="--headline2" md-font="--headline3">
+			<Text margin="0px 0 24px 0" text-align="center" font="--headline3" md-font="--headline3">
 				TernoxGames.com
 			</Text>
 		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--darkL1">
+		<Section padding="0 0" sm-padding="40px 0" font="--base" color="--darkL1">
 			<Override slot="SectionContent" max-width="1400px" />
 			<Text
 				as="h1"
@@ -31,7 +31,7 @@ export default (() => {
 				margin="0 auto 5px auto"
 				text-align="center"
 			>
-				We are cute
+				I make games
 			</Text>
 			<Text
 				as="p"
@@ -41,7 +41,7 @@ export default (() => {
 				text-align="center"
 				font="--lead"
 			>
-				The smartest people work every day to provide the best service and to make our clients happy
+				And I like it. Below is a list of games that I made myself.
 			</Text>
 			<Stack margin-top="40px">
 				<StackItem width="20%" lg-width="50%" sm-width="100%">
@@ -57,20 +57,7 @@ export default (() => {
 						Hardcore roguelike about dungeons with hybrid battles, combining classical turn based combat system and a collectible card game. Collect the best spells and conquer the dungeons!
 					</Text>
 					<Box display="block" position="static" as="div" text-align="center">
-						<Link
-							href="https://store.steampowered.com/app/932210/NEXORIA/"
-							target="_blank"
-							background="--color-primary"
-							padding="7px 20px 7px 20px"
-							margin="3px 3px 3px 3px"
-							color="#F7FBFF"
-							text-decoration-line="initial"
-							border-radius="2px"
-							display="inline-block"
-							hover-background="--color-darkL1"
-						>
-							PC (Steam)
-						</Link>
+						<Components.Knopa />
 						<Link
 							href="https://www.microsoft.com/en-us/p/nexoria-dungeon-rogue-heroes/9nxmdckxdwbp"
 							background="--color-primary"
@@ -346,13 +333,134 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
+		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--darkL1">
+			<Override slot="SectionContent" max-width="1400px" />
+			<Text
+				as="h1"
+				font="--headline1"
+				md-font="--headline2"
+				max-width="820px"
+				margin="0 auto 5px auto"
+				text-align="center"
+			>
+				I publish games
+			</Text>
+			<Text
+				as="p"
+				color="--grey"
+				max-width="520px"
+				margin="0 auto"
+				text-align="center"
+				font="--lead"
+			>
+				Since recently, I have been releasing Nintendo Switch games made in Gamemaker Studio 2.
+			</Text>
+			<Stack margin-top="40px">
+				<StackItem width="33%" lg-width="50%" sm-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/nintendo33.jpg?v=2020-10-03T21:48:55.714Z) 50% 0/cover no-repeat" />
+					<Text color="--grey" margin="0">
+						Rogue-like in NES style
+					</Text>
+					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
+						Castle of No Escape
+					</Text>
+					<Text as="p" margin="5px 0 5px 0">
+						Explore the mysterious castle full of monsters and secrets in a quest to collect all the treasures (that will also protect you from the curses on your way) and crush the main boss. The game won't let you exit the castle, no matter how you try. Technically you can win, but there is no end.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Box display="block" position="static" as="div" text-align="center">
+						<Link
+							href="https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Castle-of-no-Escape-1848339.html"
+							background="--color-primary"
+							target="_blank"
+							padding="7px 20px 7px 20px"
+							margin="3px 3px 3px 3px"
+							color="#F7FBFF"
+							text-decoration-line="initial"
+							border-radius="2px"
+							display="inline-block"
+							hover-background="--color-darkL1"
+						>
+							Nintendo Switch
+						</Link>
+					</Box>
+					{" "}
+				</StackItem>
+				<StackItem width="33%" lg-width="50%" sm-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/Image00001.jpg?v=2020-10-03T21:55:43.154Z) 50% 0/cover no-repeat" />
+					<Text color="--grey" margin="0">
+						Danmaku-like bullet hell{"\n\n"}
+					</Text>
+					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
+						Cybxus Heart
+					</Text>
+					<Text as="p" margin="5px 0 5px 0">
+						Cybxus Hearts inspired by classic Japanese shooting games. This is a game where you control three different characters at the same time.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Box display="block" position="static" as="div" text-align="center">
+						<Link
+							href="#"
+							background="--color-primary"
+							target="_blank"
+							padding="7px 20px 7px 20px"
+							margin="3px 3px 3px 3px"
+							color="#F7FBFF"
+							text-decoration-line="initial"
+							border-radius="2px"
+							display="inline-block"
+							hover-background="--color-darkL1"
+						>
+							Nintendo Switch coming soon
+						</Link>
+					</Box>
+					{" "}
+				</StackItem>
+				<StackItem width="33%" lg-width="50%" sm-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/Image00001.jpg?v=2020-10-03T21:58:36.835Z) 50% 0/cover no-repeat" />
+					<Text color="--grey" margin="0">
+						Shoot 'em up{"\n\n\n\n"}
+					</Text>
+					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
+						Void Source
+					</Text>
+					<Text as="p" margin="5px 0 5px 0">
+						Classic multi-directional (360°) shoot 'em up. Navigate your UFO through hazardous environments with dangerous enemies and beat huge bosses!
+						<br />
+						{"\n\n"}
+					</Text>
+					<Box display="block" position="static" as="div" text-align="center">
+						<Link
+							href="#"
+							background="--color-primary"
+							target="_blank"
+							padding="7px 20px 7px 20px"
+							margin="3px 3px 3px 3px"
+							color="#F7FBFF"
+							text-decoration-line="initial"
+							border-radius="2px"
+							display="inline-block"
+							hover-background="--color-darkL1"
+						>
+							Nintendo Switch coming soon
+						</Link>
+					</Box>
+					{" "}
+				</StackItem>
+			</Stack>
+		</Section>
 		<Box />
 		<Section
 			color="--light"
 			padding="100px 0"
 			sm-padding="40px 0"
 			position="relative"
-			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1547619292-240402b5ae5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)"
+			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(http://ternoxgames.com/assets/images/mayclover_meadow_night_example.png)"
 		>
 			<Stack>
 				<StackItem width="50%" md-width="100%">
@@ -360,7 +468,7 @@ export default (() => {
 					<Box
 						padding="0 0 0 64px"
 						sm-padding="64px 0 0 0"
-						margin="64px 0 0 0"
+						margin="0x 0 0 0"
 						max-width="360px"
 						position="relative"
 					>
@@ -376,72 +484,44 @@ export default (() => {
 							Email me
 						</Text>
 						<Text as="p" margin="6px 0" font="--headline3">
-							<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
+							<Link href="mailto:me@ternoxgames.com" text-decoration="none" hover-text-decoration="underline" color="--light">
 								me@ternoxgames.com
 							</Link>
 						</Text>
 					</Box>
-					<Box
-						padding="0 0 0 64px"
-						sm-padding="0"
-						margin="48px 0"
-						max-width="360px"
-						position="relative"
-						display="flex"
-					>
-						<Icon
-							category="fa"
-							href="https://twitter.com/taimumari"
-							icon={FaTwitter}
-							target="_blank"
-							width="48px"
-							height="48px"
-							size="24px"
-							margin-right="16px"
-							background="--color-primary"
-							border-radius="50%"
-						/>
-						<Icon
-							category="fa"
-							icon={FaFacebookF}
-							width="48px"
-							height="48px"
-							size="24px"
-							margin-right="16px"
-							background="--color-primary"
-							border-radius="50%"
-						/>
-						<Icon
-							category="fa"
-							icon={FaSteamSymbol}
-							width="48px"
-							height="48px"
-							size="24px"
-							margin-right="16px"
-							background="--color-primary"
-							border-radius="50%"
-						/>
-						<Link
-							href="https://www.microsoft.com/en-us/p/nexoria-dungeon-rogue-heroes/9nxmdckxdwbp"
-							background="--color-primary"
-							target="_blank"
-							padding="0 0 0 0"
-							margin="0 0 0 0"
-							color="#F7FBFF"
-							text-decoration-line="initial"
-							border-radius="50px"
-							display="inline-block"
-							hover-background="--color-darkL1"
-							width="48px"
-							height="48px"
-							text-overflow="clip"
-							hyphens="auto"
-							font="17px FaSteamSymbol"
-						/>
-					</Box>
 				</StackItem>
 				<StackItem width="50%" md-width="100%" />
 			</Stack>
+			<Hr />
+			<SocialMedia
+				facebook="https://www.facebook.com/taimumari"
+				twitter="https://twitter.com/taimumari"
+				youtube="https://www.youtube.com/channel/UC1rKs1kvj_f1S7lwpHGZ9TQ/"
+				vkontakte="https://vk.com/taimumari"
+				telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
+				text-align="left"
+				position="relative"
+				display="flex"
+				align-self="flex-start"
+				instagram="https://www.instagram.com/taimumari/"
+				icon-size="32px"
+			/>
+		</Section>
+		<Section background-color="--dark" text-align="center" padding="32px 0">
+			<Menu
+				display="flex"
+				justify-content="center"
+				font="--lead"
+				font-weight="700"
+				margin="-6px 0 16px"
+				md-flex-direction="column"
+				md-align-items="center"
+				exact-active-match={false}
+			>
+				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
+				<Override slot="link-active" color="--primary" />
+				<Override slot="item" padding="6px 0px" />
+			</Menu>
 		</Section>
 	</Theme>;
 });
