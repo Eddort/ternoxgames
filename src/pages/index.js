@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Text, Box, Link, Em, Icon, Hr } from "@quarkly/widgets";
+import { Theme, Text, Link, Box, Em, Icon, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Section, Override, StackItem, Stack, SocialMedia, Menu } from "@quarkly/components";
@@ -23,13 +23,36 @@ export default (() => {
 		</Helmet>
 		<Section background="--color-light">
 			<Text
-				margin="0px 0 24px 0"
+				margin="0px 0 0px 0"
 				text-align="center"
 				font="--headline2"
 				md-font="--headline3"
 				text-transform="uppercase"
 			>
 				Ternoxgames.com
+			</Text>
+			<Text
+				as="p"
+				margin="0px 0"
+				font="--headline3"
+				color="#000000"
+				text-align="center"
+			>
+				<Link
+					href="mailto:me@ternoxgames.com"
+					text-decoration="none"
+					hover-text-decoration="underline"
+					color="--darkL1"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					font="--lead"
+				>
+					me@ternoxgames.com
+				</Link>
 			</Text>
 		</Section>
 		<Section
