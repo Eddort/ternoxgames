@@ -25,7 +25,13 @@ export default (() => {
 				md-flex-direction="column"
 				md-align-items="center"
 			>
-				<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
+				<Override
+					slot="link"
+					text-decoration="none"
+					color="--dark"
+					padding="6px 12px"
+					href="/"
+				/>
 				<Override slot="link-active" color="--primary" />
 				<Override slot="item" padding="6px" />
 				<Override slot="link-404" display="none" />

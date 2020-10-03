@@ -413,7 +413,7 @@ export default (() => {
 				</StackItem>
 				<StackItem width="33%" lg-width="50%" sm-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/Image00001.jpg?v=2020-10-03T21:55:43.154Z) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/Imacse00001.jpg?v=2020-10-03T23:05:41.127Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Danmaku-like bullet hell{"\n\n"}
 					</Text>
@@ -584,7 +584,13 @@ export default (() => {
 				md-align-items="center"
 				exact-active-match={false}
 			>
-				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
+				<Override
+					slot="link"
+					text-decoration="none"
+					color="--light"
+					padding="6px 12px"
+					href="/"
+				/>
 				<Override slot="link-active" color="--primary" />
 				<Override slot="item" padding="6px 0px" />
 				<Override slot="link-404" display="none" />
