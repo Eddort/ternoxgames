@@ -75,7 +75,7 @@ export default (() => {
 					<Text as="p" margin="20px 0 5px 0">
 						Hardcore roguelike about dungeons with hybrid battles, combining classical turn based combat system and a collectible card game. Collect the best spells and conquer the dungeons!
 					</Text>
-					<Button href="#">
+					<Button href="/nexoria">
 						Button
 					</Button>
 					<Hr />
