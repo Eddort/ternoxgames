@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Text, Box, Button } from "@quarkly/widgets";
+import { Theme, Text, Box, Link, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -79,24 +79,30 @@ export default (() => {
 						Hardcore roguelike about dungeons with hybrid battles, combining classical turn based combat system and a collectible card game. Collect the best spells and conquer the dungeons!
 					</Text>
 					<Box display="block" position="static" as="div" text-align="center">
-						<Button
+						<Link
 							href="https://store.steampowered.com/app/932210/NEXORIA/"
-							display="inline"
-							position="static"
-							margin="3px 7px 3px 3px"
-							min-width="90px"
+							background="--color-primary"
+							padding="7px 20px 7px 20px"
+							margin="3px 3px 3px 3px"
+							color="#F7FBFF"
+							text-decoration-line="initial"
+							border-radius="2px"
+							display="inline-block"
 						>
 							PC (Steam)
-						</Button>
-						<Button
-							href="https://store.steampowered.com/app/932210/NEXORIA/"
-							display="inline"
-							position="static"
-							margin="3px 7px 3px 3px"
-							min-width="90px"
+						</Link>
+						<Link
+							href="https://www.microsoft.com/en-us/p/nexoria-dungeon-rogue-heroes/9nxmdckxdwbp"
+							background="--color-primary"
+							padding="7px 20px 7px 20px"
+							margin="3px 3px 3px 3px"
+							color="#F7FBFF"
+							text-decoration-line="initial"
+							border-radius="2px"
+							display="inline-block"
 						>
 							Xbox (Microsoft Store)
-						</Button>
+						</Link>
 					</Box>
 					{" "}
 				</StackItem>
