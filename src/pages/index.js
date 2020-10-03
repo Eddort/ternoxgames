@@ -24,7 +24,7 @@ export default (() => {
 				md-flex-direction="column"
 			>
 				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--lead">
-					Company name
+					Ternox Games
 				</Text>
 				<Menu
 					display="flex"
@@ -224,15 +224,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Button
-			position="fixed"
-			top="20px"
-			left="20px"
-			z-index="2"
-			href="/"
-		>
-			Button
-		</Button>
 		<Section padding="100px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
