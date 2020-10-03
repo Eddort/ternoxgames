@@ -81,6 +81,7 @@ export default (() => {
 					<Box display="block" position="static" as="div" text-align="center">
 						<Link
 							href="https://store.steampowered.com/app/932210/NEXORIA/"
+							target="_blank"
 							background="--color-primary"
 							padding="7px 20px 7px 20px"
 							margin="3px 3px 3px 3px"
@@ -94,6 +95,7 @@ export default (() => {
 						<Link
 							href="https://www.microsoft.com/en-us/p/nexoria-dungeon-rogue-heroes/9nxmdckxdwbp"
 							background="--color-primary"
+							target="_blank"
 							padding="7px 20px 7px 20px"
 							margin="3px 3px 3px 3px"
 							color="#F7FBFF"
