@@ -67,6 +67,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							PC (Steam)
 						</Link>
@@ -80,6 +81,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Xbox
 						</Link>
@@ -110,6 +112,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							PC (Steam)
 						</Link>
@@ -123,6 +126,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Xbox
 						</Link>
@@ -136,6 +140,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Nintendo Switch
 						</Link>
@@ -149,6 +154,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Playstation 4
 						</Link>
@@ -189,6 +195,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							PC (Steam)
 						</Link>
@@ -202,6 +209,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Play Market
 						</Link>
@@ -231,6 +239,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							PC (Steam)
 						</Link>
@@ -244,6 +253,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Xbox
 						</Link>
@@ -257,6 +267,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Nintendo Switch
 						</Link>
@@ -270,6 +281,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Playstation 4
 						</Link>
@@ -298,6 +310,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							PC (Steam)
 						</Link>
@@ -311,6 +324,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Xbox
 						</Link>
@@ -324,6 +338,7 @@ export default (() => {
 							text-decoration-line="initial"
 							border-radius="2px"
 							display="inline-block"
+							hover-background="--color-darkL1"
 						>
 							Nintendo Switch
 						</Link>
@@ -405,6 +420,23 @@ export default (() => {
 							margin-right="16px"
 							background="--color-primary"
 							border-radius="50%"
+						/>
+						<Link
+							href="https://www.microsoft.com/en-us/p/nexoria-dungeon-rogue-heroes/9nxmdckxdwbp"
+							background="--color-primary"
+							target="_blank"
+							padding="0 0 0 0"
+							margin="0 0 0 0"
+							color="#F7FBFF"
+							text-decoration-line="initial"
+							border-radius="50px"
+							display="inline-block"
+							hover-background="--color-darkL1"
+							width="48px"
+							height="48px"
+							text-overflow="clip"
+							hyphens="auto"
+							font="17px FaSteamSymbol"
 						/>
 					</Box>
 				</StackItem>
