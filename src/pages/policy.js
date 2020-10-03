@@ -2,7 +2,7 @@ import React from "react";
 import theme from "theme";
 import { Theme, Text, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
-import { Section } from "@quarkly/components";
+import { Override, Menu, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -17,6 +17,25 @@ export default (() => {
 			<Text margin="0px 0 24px 0" text-align="center" font="--headline2" md-font="--headline3">
 				Ternoxgames.com
 			</Text>
+			<Menu
+				display="flex"
+				justify-content="center"
+				font="--base"
+				font-weight="700"
+				md-flex-direction="column"
+				md-align-items="center"
+			>
+				<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
+				<Override slot="link-active" color="--primary" />
+				<Override slot="item" padding="6px" />
+				<Override slot="link-404" display="none" />
+				<Override slot="link-index">
+					Main
+				</Override>
+				<Override slot="link-policy">
+					Policy
+				</Override>
+			</Menu>
 		</Section>
 		<Section
 			text-align="center"
@@ -54,7 +73,7 @@ export default (() => {
 				I can also email you if you give it in the feedback form. But I don't keep your email adress longer than 30 days and won't write to you again unless you want me to.
 				<br />
 			</Text>
-			<Components.Knopa href="ternoxgames.com" target="_self" font="20px sans-serif">
+			<Components.Knopa font="20px sans-serif" href="/">
 				Main page
 			</Components.Knopa>
 		</Section>

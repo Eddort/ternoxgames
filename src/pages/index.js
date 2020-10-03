@@ -16,12 +16,24 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section>
-			<Text margin="0px 0 24px 0" text-align="center" font="--headline3" md-font="--headline3">
-				TernoxGames.com
+		<Section background="--color-secondary">
+			<Text
+				margin="0px 0 24px 0"
+				text-align="center"
+				font="--headline2"
+				md-font="--headline3"
+				text-transform="uppercase"
+			>
+				Ternoxgames.com
 			</Text>
 		</Section>
-		<Section padding="0 0" sm-padding="40px 0" font="--base" color="--darkL1">
+		<Section
+			padding="0 0"
+			sm-padding="40px 0"
+			font="--base"
+			color="--darkL1"
+			background="linear-gradient(180deg, --color-secondary, transparent) no-repeat 0 0"
+		>
 			<Override slot="SectionContent" max-width="1400px" />
 			<Text
 				as="h1"
@@ -507,6 +519,50 @@ export default (() => {
 				icon-size="32px"
 			/>
 		</Section>
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/fon.jpg?v=2020-10-03T22:47:21.056Z) left/cover">
+			<Box
+				max-width="240px"
+				padding="50px 80px 80px 50px"
+				background="--color-light"
+				color="#04080C"
+				position="static"
+				align-self="flex-end"
+			>
+				<Text
+					as="h4"
+					font="--base"
+					color="--grey"
+					letter-spacing="1px"
+					text-transform="uppercase"
+					margin="6px 0"
+				>
+					iin developing
+				</Text>
+				<Text as="h2" font="--headline2" margin="0 0 12px 0" width="280px">
+					Taimumari 2
+				</Text>
+				<Text font="--base">
+					Someone has given the academy's students mysterious and dangerous powers, and Himari is about to find the truth.
+					<br />
+					{"\n\n\n\n"}
+				</Text>
+				<Link
+					href="https://store.steampowered.com/app/1292400/Taimumari_2/"
+					background="--color-primary"
+					target="_blank"
+					padding="7px 20px 7px 20px"
+					margin="3px 3px 3px 3px"
+					color="#F7FBFF"
+					text-decoration-line="initial"
+					border-radius="2px"
+					display="block"
+					hover-background="--color-darkL1"
+					text-align="center"
+				>
+					Steam Page
+				</Link>
+			</Box>
+		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0">
 			<Menu
 				display="flex"
@@ -521,6 +577,13 @@ export default (() => {
 				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
 				<Override slot="link-active" color="--primary" />
 				<Override slot="item" padding="6px 0px" />
+				<Override slot="link-404" display="none" />
+				<Override slot="link-index">
+					Main
+				</Override>
+				<Override slot="link-policy">
+					Privacy Policy
+				</Override>
 			</Menu>
 		</Section>
 	</Theme>;

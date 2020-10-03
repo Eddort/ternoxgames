@@ -32,7 +32,7 @@ export default {
 		"lightD2": "#E4E8EC",
 		"green": "#00875A",
 		"primary": "#cc003c",
-		"secondary": "#FFC400",
+		"secondary": "rgba(183, 242, 255, 0.47)",
 		"orange": "#FF7C22",
 		"red": "#DE350B",
 		"purple": "#FD6DF9",

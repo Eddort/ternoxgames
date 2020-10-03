@@ -5,8 +5,8 @@ export default {
 			"pageUrl": "root",
 			"name": "root",
 			"children": [
-				"5e9db7bb052a30001fc650da",
 				"5e9db7bb052a30001fc650dc",
+				"5e9db7bb052a30001fc650da",
 				"5f78f4dd2e3a2a001faf3e0e"
 			]
 		},
@@ -25,7 +25,8 @@ export default {
 			},
 			"seo": {
 				"title": "Main Page"
-			}
+			},
+			"children": []
 		},
 		"5f78f4dd2e3a2a001faf3e0e": {
 			"id": "5f78f4dd2e3a2a001faf3e0e",
