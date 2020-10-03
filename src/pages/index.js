@@ -63,7 +63,7 @@ export default (() => {
 			<Stack margin-top="40px">
 				<StackItem width="20%" lg-width="50%" sm-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(http://ternoxgames.com/nexoria-min.jpg) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/nexoria-min.jpg?v=2020-10-03T23:32:11.660Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Rogue-like with cards
 					</Text>
@@ -166,7 +166,7 @@ export default (() => {
 				</StackItem>
 				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(http://ternoxgames.com/assets/images/legend.jpg) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/legend.jpg?v=2020-10-03T23:32:27.115Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Arcade
 					</Text>
@@ -293,7 +293,7 @@ export default (() => {
 				</StackItem>
 				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(http://ternoxgames.com/assets/images/bullet_big.jpg) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/bullet_big.jpg?v=2020-10-03T23:32:50.124Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Shoot'em'up with rythm
 					</Text>
@@ -482,7 +482,7 @@ export default (() => {
 			padding="100px 0"
 			sm-padding="40px 0"
 			position="relative"
-			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(http://ternoxgames.com/assets/images/mayclover_meadow_night_example.png)"
+			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/mayclover_meadow_night_example.png?v=2020-10-03T23:33:05.039Z)"
 		>
 			<Stack>
 				<StackItem width="50%" md-width="100%">
