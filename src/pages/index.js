@@ -11,12 +11,17 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Main Page
+				Games from Ternox
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<meta name={"description"} content={"Indie games developer and publisher."} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"} />
 		</Helmet>
-		<Section background="--color-secondary">
+		<Section background="--color-light">
 			<Text
 				margin="0px 0 24px 0"
 				text-align="center"
@@ -32,9 +37,9 @@ export default (() => {
 			sm-padding="40px 0"
 			font="--base"
 			color="--darkL1"
-			background="linear-gradient(180deg, --color-secondary, transparent) no-repeat 0 0"
+			background="--color-light"
 		>
-			<Override slot="SectionContent" max-width="1400px" />
+			<Override slot="SectionContent" max-width="1400px" background="--color-light" />
 			<Text
 				as="h1"
 				font="--headline1"
@@ -345,7 +350,13 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--darkL1">
+		<Section
+			padding="64px 0"
+			sm-padding="40px 0"
+			font="--base"
+			color="#0E1317"
+			background="--color-light"
+		>
 			<Override slot="SectionContent" max-width="1400px" />
 			<Text
 				as="h1"
@@ -466,7 +477,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Box />
 		<Section
 			color="--light"
 			padding="100px 0"
@@ -579,7 +589,7 @@ export default (() => {
 				<Override slot="item" padding="6px 0px" />
 				<Override slot="link-404" display="none" />
 				<Override slot="link-index">
-					Main
+					Main Page
 				</Override>
 				<Override slot="link-policy">
 					Privacy Policy
