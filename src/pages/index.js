@@ -1,11 +1,12 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Text, Box, Button, Icon } from "@quarkly/widgets";
+import { Theme, Text, Box, Button, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
-import { MdFace } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
+		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
 				Quarkly export
@@ -39,7 +40,7 @@ export default (() => {
 				</Menu>
 			</Box>
 		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--dark">
+		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--darkL1">
 			<Override slot="SectionContent" max-width="1400px" />
 			<Text
 				as="h1"
@@ -74,9 +75,10 @@ export default (() => {
 					<Text as="p" margin="20px 0 5px 0">
 						Hardcore roguelike about dungeons with hybrid battles, combining classical turn based combat system and a collectible card game. Collect the best spells and conquer the dungeons!
 					</Text>
-					<Button>
+					<Button href="#">
 						Button
 					</Button>
+					<Hr />
 				</StackItem>
 				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
@@ -222,10 +224,27 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Icon category="md" icon={MdFace} />
-		<Button>
+		<Button
+			position="fixed"
+			top="20px"
+			left="20px"
+			z-index="2"
+			href="/"
+		>
 			Button
 		</Button>
+		<Section padding="100px 0" sm-padding="40px 0">
+			<Override slot="SectionContent" align-items="center" />
+			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
+				About Us
+			</Text>
+			<Text as="p" font="--lead" margin="20px 0 0 0">
+				Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake. I’m a great space for you to tell a story and let your site visitors know more about you. Talk about your business and what products and services you offer. Share how you came up with the idea for your company and what makes you different from your competitors. Make your business stand out and show your visitors who you are.
+			</Text>
+			<Button font="--lead" margin="20px">
+				Button
+			</Button>
+		</Section>
 		<Box />
 	</Theme>;
 });

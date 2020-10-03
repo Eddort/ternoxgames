@@ -17,7 +17,11 @@ export default {
 		"5e9db7bb052a30001fc650dc": {
 			"id": "5e9db7bb052a30001fc650dc",
 			"name": "index",
-			"pageUrl": "index"
+			"pageUrl": "index",
+			"styles": {
+				"color": "#000000",
+				"font": "17px sans-serif"
+			}
 		}
 	},
 	"mode": "production",
