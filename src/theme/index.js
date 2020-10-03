@@ -31,7 +31,7 @@ export default {
 		"lightD1": "#EDF2F6",
 		"lightD2": "#E4E8EC",
 		"green": "#00875A",
-		"primary": "#0077CC",
+		"primary": "#cc003c",
 		"secondary": "#FFC400",
 		"orange": "#FF7C22",
 		"red": "#DE350B",
@@ -151,5 +151,5 @@ export default {
 			}
 		}
 	},
-	"version": 1
+	"version": 2
 }

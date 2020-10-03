@@ -23,7 +23,7 @@ export default (() => {
 				flex-direction="row"
 				md-flex-direction="column"
 			>
-				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--lead">
+				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--headline2">
 					Ternox Games
 				</Text>
 				<Menu
@@ -37,6 +37,9 @@ export default (() => {
 					<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
 					<Override slot="link-active" color="--primary" />
 					<Override slot="item" padding="6px" />
+					<Override slot="link-nexoria">
+						Nexoria
+					</Override>
 				</Menu>
 			</Box>
 		</Section>
@@ -75,9 +78,26 @@ export default (() => {
 					<Text as="p" margin="5px 0 5px 0">
 						Hardcore roguelike about dungeons with hybrid battles, combining classical turn based combat system and a collectible card game. Collect the best spells and conquer the dungeons!
 					</Text>
-					<Button href="https://store.steampowered.com/app/932210/NEXORIA/">
-						Steam
-					</Button>
+					<Box display="block" position="static" as="div" text-align="center">
+						<Button
+							href="https://store.steampowered.com/app/932210/NEXORIA/"
+							display="inline"
+							position="static"
+							margin="3px 7px 3px 3px"
+							min-width="90px"
+						>
+							PC (Steam)
+						</Button>
+						<Button
+							href="https://store.steampowered.com/app/932210/NEXORIA/"
+							display="inline"
+							position="static"
+							margin="3px 7px 3px 3px"
+							min-width="90px"
+						>
+							Xbox (Microsoft Store)
+						</Button>
+					</Box>
 					{" "}
 				</StackItem>
 				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
