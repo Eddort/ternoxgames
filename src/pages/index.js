@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Text, Box, Button, Hr } from "@quarkly/widgets";
+import { Theme, Text, Box, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -24,7 +24,7 @@ export default (() => {
 				md-flex-direction="column"
 			>
 				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--lead">
-					Company name
+					Ternox Games
 				</Text>
 				<Menu
 					display="flex"
@@ -72,13 +72,13 @@ export default (() => {
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
 						Nexoria: Dungeon Rogue Heroes
 					</Text>
-					<Text as="p" margin="20px 0 5px 0">
+					<Text as="p" margin="5px 0 5px 0">
 						Hardcore roguelike about dungeons with hybrid battles, combining classical turn based combat system and a collectible card game. Collect the best spells and conquer the dungeons!
 					</Text>
-					<Button href="/nexoria">
-						Button
+					<Button href="https://store.steampowered.com/app/932210/NEXORIA/">
+						Steam
 					</Button>
-					<Hr />
+					{" "}
 				</StackItem>
 				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
@@ -224,15 +224,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Button
-			position="fixed"
-			top="20px"
-			left="20px"
-			z-index="2"
-			href="/"
-		>
-			Button
-		</Button>
 		<Section padding="100px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
