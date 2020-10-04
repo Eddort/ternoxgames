@@ -120,7 +120,7 @@ export default (() => {
 				</StackItem>
 				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://cdn02.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_TaimumariCompleteEdition.jpg) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/SQ_NSwitchDS_TaimumariCompleteEdition.jpg?v=2020-10-04T13:53:02.389Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Platformer inspired by MegaMan X
 					</Text>
@@ -247,7 +247,7 @@ export default (() => {
 				</StackItem>
 				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://cdn02.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_InVert.jpg) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/SQ_NSwitchDS_InVert.jpg?v=2020-10-04T13:53:17.340Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Puzzle platformer
 					</Text>
