@@ -31,7 +31,10 @@ export default {
 				"description": "Indie games developer and publisher.",
 				"favicon_32px": "https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z",
 				"favicon_win10_270px": "https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z",
-				"favicon_apple_152px": "https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"
+				"favicon_apple_152px": "https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z",
+				"og:title": "Games from Ternox",
+				"og:image": "https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/fon.jpg?v=2020-10-03T22:47:21.056Z",
+				"og:description": "Indie games developer and publisher."
 			},
 			"children": []
 		},

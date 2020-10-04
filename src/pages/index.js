@@ -14,6 +14,9 @@ export default (() => {
 				Games from Ternox
 			</title>
 			<meta name={"description"} content={"Indie games developer and publisher."} />
+			<meta property={"og:title"} content={"Games from Ternox"} />
+			<meta property={"og:description"} content={"Indie games developer and publisher."} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/fon.jpg?v=2020-10-03T22:47:21.056Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/5e9db7bb052a30001fc650d8/images/himmm.png?v=2020-10-03T22:34:30.191Z"} />
